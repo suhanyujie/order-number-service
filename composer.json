@@ -2,8 +2,17 @@
     "name": "suhanyujie/order-number-service",
     "description": "a micro service of order number",
     "type": "library",
+    "keywords": [
+	"order number service"
+    ],
     "require": {
+        "php": ">=7.2",
         "workerman/workerman": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ONS\\": "src/"
+        }
     },
     "authors": [
         {
@@ -13,5 +22,6 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^8"
-    }
+    },
+    "license": "MIT"
 }
