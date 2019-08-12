@@ -14,7 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "ONS\\": "src/"
+            "ONS\\": "src/",
+            "OTest\\": "tests/"
         }
     },
     "authors": [
