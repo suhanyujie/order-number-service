@@ -1,0 +1,14 @@
+{
+    "name": "suhanyujie/order-number-service",
+    "description": "a micro service of order number",
+    "type": "library",
+    "require": {
+        "workerman/workerman": "^3.5"
+    },
+    "authors": [
+        {
+            "name": "suhanyujie",
+            "email": "suhanyujie@qq.com"
+        }
+    ]
+}
