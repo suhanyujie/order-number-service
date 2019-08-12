@@ -10,5 +10,8 @@
             "name": "suhanyujie",
             "email": "suhanyujie@qq.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
 }
